@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Feb 19 16:42:18 2017
+# Process ID: 7204
+# Current directory: E:/vivado_homework/electronic clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7692 E:\vivado_homework\electronic clock\counter.xpr
+# Log file: E:/vivado_homework/electronic clock/vivado.log
+# Journal file: E:/vivado_homework/electronic clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado_homework/electronic clock/counter.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/electronic clock' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/electronic clock/counter.cache/ip', nor could it be found using path 'C:/Users/Administrator/Desktop/electronic clock/counter.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:29 . Memory (MB): peak = 788.254 ; gain = 82.438
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 19 23:57:02 2017...

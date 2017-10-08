@@ -1,0 +1,1354 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 21 14:04:49 2017
+# Process ID: 15100
+# Current directory: E:/vivado_homework/SCPU1/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15864 E:\vivado_homework\SCPU1\SCPU\SCPU.xpr
+# Log file: E:/vivado_homework/SCPU1/SCPU/vivado.log
+# Journal file: E:/vivado_homework/SCPU1/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/SCPU1/SCPU/SCPU.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU1/SCPU/SCPU.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 737.398 ; gain = 77.430
+remove_files  E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/PC.v
+remove_files  {E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALU_memory_to_reg.v E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALUSrc.v E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/DataMemory.v E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/ALU.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Button_Scaning.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Button_Scaning.v
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU/project_1/project_1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/PC.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/PC.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/instructionMemory.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/instructionMemory.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/control_unit.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/control_unit.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_RegDst.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_RegDst.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_signExtend.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_signExtend.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Register.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Register.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALUSrc.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALUSrc.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/ALU.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/ALU.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/DataMemory.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/DataMemory.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALU_memory_to_reg.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALU_memory_to_reg.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/addr_shift.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/addr_shift.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_PCSrc.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_PCSrc.v
+current_project project_1
+open_project {E:/vivado_homework/electronic clock/counter.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/electronic clock/counter.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artifical_impulse.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artifical_impulse.v
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v
+open_project {E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/theory Project/Gluttonous Snake V2.0' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+current_project SCPU
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files  E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artifical_impulse.v
+file delete -force E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artifical_impulse.v
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artificial_impulse.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artificial_impulse.v
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 15:00:27 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1148.820 ; gain = 273.008
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+place_ports clk W5
+set_property IOSTANDARD LVCMOS33 [get_ports [list button]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list L]]
+place_ports button T17
+place_ports L E19
+file mkdir E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc w ]
+add_files -fileset constrs_1 E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc
+set_property target_constrs_file E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 15:03:37 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+[Fri Apr 21 15:03:37 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+current_project {Gluttonous Snake}
+close_project
+close_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1591.090 ; gain = 0.000
+current_project SCPU
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 15:08:15 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.3
+  **** Build date : Oct 10 2016-19:47:06
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1591.090 ; gain = 0.000
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+current_project project_1
+close_project
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Fri Apr 21 15:13:19 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 21 15:13:19 2017...
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1659.789 ; gain = 1.973
+close_project
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU/project_1/project_1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1690.730 ; gain = 0.000
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU.v
+current_project project_1
+current_project SCPU
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_display.v w ]
+add_files E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_display.v
+current_project project_1
+current_project SCPU
+open_project {E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/theory Project/Gluttonous Snake V2.0' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+current_project SCPU
+current_project {Gluttonous Snake}
+close_project
+current_project SCPU
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 15:46:47 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+current_project project_1
+close_project
+open_project {E:/vivado_homework/electronic clock/counter.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/electronic clock/counter.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+current_project SCPU
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 15:53:21 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 15:54:31 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+Finished Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1767.141 ; gain = 35.660
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+place_ports reset R2
+set_property IOSTANDARD LVCMOS33 [get_ports [list {s[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {s[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {a_to_g[6]} {a_to_g[5]} {a_to_g[4]} {a_to_g[3]} {a_to_g[2]} {a_to_g[1]} {a_to_g[0]}]]
+place_ports {s[1]} V16
+place_ports {s[0]} V17
+place_ports dp V7
+place_ports {an[3]} W4
+place_ports {an[2]} V4
+place_ports {an[1]} U4
+place_ports {an[0]} U2
+current_project counter
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticpg236-1L
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L'. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L'. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/vivado_homework/electronic clock/counter.srcs/constrs_1/new/counter.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1859.965 ; gain = 92.824
+current_project SCPU
+place_ports {a_to_g[6]} W7
+place_ports {a_to_g[5]} W6
+place_ports {a_to_g[4]} U8
+place_ports {a_to_g[3]} V8
+place_ports {a_to_g[2]} U5
+place_ports {a_to_g[1]} V5
+place_ports {a_to_g[0]} U7
+save_constraints
+launch_runs impl_1 -jobs 2
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.249 . Memory (MB): peak = 2276.172 ; gain = 0.000
+[Fri Apr 21 16:03:13 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+set_property IOSTANDARD LVCMOS33 [get_ports [list dp]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 16:05:53 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 16:10:57 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 16:13:47 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at TCP:localhost:3121.
+ Targets(s) ", jsn-Basys3-210183698698A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+current_project counter
+close_project
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+ERROR: [Labtools 27-3133] Error while setting target JTAG Clock Frequency.
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+open_project {E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/theory Project/Gluttonous Snake V2.0' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 2276.172 ; gain = 0.000
+current_project SCPU
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v:1]
+[Fri Apr 21 16:36:10 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 16:40:19 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 16:45:45 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 16:49:50 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 16:52:00 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 16:55:35 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v:1]
+[Fri Apr 21 16:59:29 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 17:01:44 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 17:04:14 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at TCP:localhost:3121.
+ Targets(s) ", jsn-Basys3-210183698698A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 17:22:23 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+[Fri Apr 21 17:22:23 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 17:31:46 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/.Xil/Vivado-15100-YR151215-IXCK/dcp/SCPU_top.xdc]
+Finished Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/.Xil/Vivado-15100-YR151215-IXCK/dcp/SCPU_top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2276.172 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2276.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 12 instances
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 2309.848 ; gain = 33.676
+open_report: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2340.691 ; gain = 28.363
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+current_project {Gluttonous Snake}
+close_project
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 18:28:42 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+[Fri Apr 21 18:28:42 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 18:33:52 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 19:18:47 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+[Fri Apr 21 19:18:47 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 19:23:40 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+current_design synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library work [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:1]
+[Fri Apr 21 19:26:20 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:26 . Memory (MB): peak = 2393.117 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+Finished Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2393.117 ; gain = 0.000
+set_property IOSTANDARD LVCMOS33 [get_ports [list choice]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {s1[2]} {s1[1]} {s1[0]}]]
+place_ports choice T1
+place_ports {s1[2]} W15
+place_ports {s1[1]} W17
+place_ports {s1[0]} W16
+save_constraints
+launch_runs impl_1 -jobs 2
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2393.117 ; gain = 0.000
+[Fri Apr 21 19:30:29 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 19:33:45 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU/project_1/project_1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 2393.117 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sim_1/new/SCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2479.313 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5036de1aabf34b718ac0266cebc7d9ce --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_sim_behav xil_defaultlib.SCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.SCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_sim_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 50.785 ; gain = 0.660
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 21 20:25:18 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:35 . Memory (MB): peak = 2479.313 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '35' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_sim_behav -key {Behavioral:sim_1:Functional:SCPU_sim} -tclbatch {SCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2505.246 ; gain = 25.934
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:52 . Memory (MB): peak = 2505.246 ; gain = 25.934
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:38 . Memory (MB): peak = 2568.215 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sim_1/new/SCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5036de1aabf34b718ac0266cebc7d9ce --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_sim_behav xil_defaultlib.SCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.SCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_sim_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Apr 21 20:38:37 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:29 . Memory (MB): peak = 50.676 ; gain = 0.668
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 21 20:38:37 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:36 . Memory (MB): peak = 2568.215 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '36' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_sim_behav -key {Behavioral:sim_1:Functional:SCPU_sim} -tclbatch {SCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2568.215 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 2568.215 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:34 . Memory (MB): peak = 2568.215 ; gain = 0.000
+close_project
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 21 20:43:43 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/synth_1/runme.log
+[Fri Apr 21 20:43:43 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 21 20:49:34 2017] Launched impl_1...
+Run output will be captured here: E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2568.215 ; gain = 0.000
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/SCPU1/SCPU/SCPU.runs/impl_1/SCPU_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698698A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698698A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698698A
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 21:03:15 2017...

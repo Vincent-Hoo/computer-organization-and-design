@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 25 23:37:55 2017
+# Process ID: 18124
+# Current directory: E:/vivado_homework/MCPU/MCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13576 E:\vivado_homework\MCPU\MCPU\MCPU.xpr
+# Log file: E:/vivado_homework/MCPU/MCPU/vivado.log
+# Journal file: E:/vivado_homework/MCPU/MCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/MCPU/MCPU/MCPU.xpr
+launch_simulation
+source MCPU_sim.tcl
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 300 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 300 ns
+run all
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 30 ns
+restart
+run all
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run all
+run all
+restart
+close_sim

@@ -1,0 +1,76 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Dec 26 13:19:48 2016
+| Host         : Abner-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    23 |
+| Minimum Number of register sites lost to control set restrictions |    84 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              72 |           30 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              15 |            5 |
+| Yes          | No                    | No                     |              97 |           26 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             196 |           75 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+--------------------------------+----------------------------+------------------+----------------+
+|        Clock Signal       |          Enable Signal         |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++---------------------------+--------------------------------+----------------------------+------------------+----------------+
+|  Game/mode_reg[1]_i_1_n_0 |                                | Snake/AS[1]                |                1 |              1 |
+|  Game/mode_reg[0]/G0      |                                |                            |                1 |              1 |
+|  Button/button_plus       |                                |                            |                2 |              2 |
+|  clock/clk_100Hz          |                                |                            |                1 |              2 |
+|  clk_4Hz__BUFG            |                                |                            |                3 |              3 |
+|  clk_4Hz__BUFG            | Snake/cube_y[0][3]_i_2_n_0     | Snake/cube_y[0][3]_i_1_n_0 |                1 |              4 |
+|  Snake/plus               |                                | Snake/status               |                1 |              4 |
+|  clk_25MHz_BUFG           |                                | VGA/i[4]_i_1_n_0           |                2 |              5 |
+|  VGA/y_cnt_pulse          |                                | VGA/j[4]_i_1_n_0           |                1 |              5 |
+|  clk_4Hz__BUFG            | Snake/cube_x[0][5]_i_1_n_0     |                            |                2 |              6 |
+|  clk_25MHz_BUFG           | VGA/x_pos[5]_i_1_n_0           | VGA/i[4]_i_1_n_0           |                4 |              6 |
+|  VGA/y_cnt_pulse          | VGA/y_pos[5]_i_1_n_0           | VGA/j[4]_i_1_n_0           |                2 |              6 |
+|  clk_4Hz__BUFG            | Snake/cube_x[1][5]_i_2_n_0     | Snake/cube_x[1][4]_i_1_n_0 |                4 |             10 |
+|  clk_25MHz_BUFG           | VGA/y_counter[10]_i_1_n_0      |                            |                4 |             11 |
+|  clk_25MHz_BUFG           |                                |                            |                6 |             13 |
+|  clk_25MHz_BUFG           | Button/delay_clk[4][0]_i_1_n_0 |                            |                4 |             16 |
+|  clk_25MHz_BUFG           | Button/delay_clk[3][0]_i_1_n_0 |                            |                4 |             16 |
+|  clk_25MHz_BUFG           | Button/delay_clk[2][0]_i_1_n_0 |                            |                4 |             16 |
+|  clk_25MHz_BUFG           | Button/delay_clk[1][0]_i_1_n_0 |                            |                4 |             16 |
+|  clk_25MHz_BUFG           | Button/delay_clk[0][0]_i_1_n_0 |                            |                4 |             16 |
+|  clock/random_num_reg[11] |                                |                            |               10 |             25 |
+|  main_clk_IBUF_BUFG       |                                |                            |                7 |             26 |
+|  clk_4Hz__BUFG            | Snake/cube_x[1][5]_i_2_n_0     | Snake/cube_x[1][5]_i_1_n_0 |               64 |            170 |
++---------------------------+--------------------------------+----------------------------+------------------+----------------+
+
+

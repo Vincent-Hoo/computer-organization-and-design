@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Apr 26 08:08:35 2017
+# Process ID: 12504
+# Current directory: E:/vivado_homework/SCPUwithFPGA/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9740 E:\vivado_homework\SCPUwithFPGA\SCPU\SCPU.xpr
+# Log file: E:/vivado_homework/SCPUwithFPGA/SCPU/vivado.log
+# Journal file: E:/vivado_homework/SCPUwithFPGA/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/SCPUwithFPGA/SCPU/SCPU.xpr
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+launch_simulation
+source SCPU_sim.tcl
+close_sim
+launch_simulation
+source SCPU_sim.tcl
+restart
+run 30 ns
+run 30 ns
+run all
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+close_sim
+close_project

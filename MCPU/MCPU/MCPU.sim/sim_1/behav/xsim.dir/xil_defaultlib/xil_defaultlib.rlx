@@ -1,0 +1,27 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+E:/vivado_homework/MCPU/MCPU/MCPU.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sim_1/new/MCPU_sim.v,1495026139,verilog,,,,MCPU_sim,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/ADR.v,1494914456,verilog,,,,ADR,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/ALUoutDR.v,1494914453,verilog,,,,ALUoutDR,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/BDR.v,1494914479,verilog,,,,BDR,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/DBDR.v,1494916626,verilog,,,,DBDR,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/IR.v,1494913716,verilog,,,,IR,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/MCPU.v,1495026835,verilog,,,,MCPU,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/Mux_ALUSrcA.v,1495026897,verilog,,,,Mux_ALUSrcA,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/Mux_WRdataSrc.v,1494922311,verilog,,,,Mux_WRdataSrc,,,,,,,,
+E:/vivado_homework/MCPU/MCPU/MCPU.srcs/sources_1/new/jumpInsExtend.v,1494923563,verilog,,,,jumpInsExtend,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v,1494923285,verilog,,,,ALU,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v,1494922795,verilog,,,,Mux_ALU_memory_to_reg,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v,1495767566,verilog,,,,DataMemory,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v,1494942734,verilog,,,,Mux_ALUSrcB,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v,1495789354,verilog,,,,Mux_PCSrc,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v,1495026478,verilog,,,,Mux_RegDst,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v,1492568733,verilog,,,,Mux_signExtend,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v,1494986449,verilog,,,,PC,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v,1492515672,verilog,,,,Register,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v,1492512701,verilog,,,,addr_shift,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v,1495768041,verilog,,,,control_unit,,,,,,,,
+E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v,1494948467,verilog,,,,instructionMemory,,,,,,,,

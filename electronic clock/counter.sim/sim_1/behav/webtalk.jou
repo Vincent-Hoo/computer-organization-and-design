@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 21:03:04 2016
+# Process ID: 10068
+# Current directory: C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 18 23:14:47 2016
+# Process ID: 6484
+# Current directory: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1
+# Command line: vivado.exe -log scroll_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source scroll_top.tcl
+# Log file: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1/scroll_top.vds
+# Journal file: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source scroll_top.tcl -notrace
+Command: synth_design -top scroll_top -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5140 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 284.441 ; gain = 73.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'scroll_top' [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:149]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:22]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (1#1) [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:22]
+INFO: [Synth 8-638] synthesizing module 'movement' [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:45]
+	Parameter chunk bound to: 88'b1111111111110000101010111100110000001111111100010101001101010010000100010100111111111111 
+INFO: [Synth 8-256] done synthesizing module 'movement' (2#1) [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:45]
+INFO: [Synth 8-638] synthesizing module 'seg7' [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:75]
+	Parameter T bound to: 50000 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:126]
+INFO: [Synth 8-256] done synthesizing module 'seg7' (3#1) [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:75]
+INFO: [Synth 8-256] done synthesizing module 'scroll_top' (4#1) [E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.srcs/sources_1/new/scroll_top.v:149]
+WARNING: [Synth 8-3331] design seg7 has unconnected port clr

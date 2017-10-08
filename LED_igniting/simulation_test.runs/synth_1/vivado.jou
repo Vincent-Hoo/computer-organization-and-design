@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 25 01:17:10 2016
+# Process ID: 3772
+# Current directory: C:/Users/Administrator/Desktop/simulation_test/simulation_test.runs/synth_1
+# Command line: vivado.exe -log LED_igniting.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LED_igniting.tcl
+# Log file: C:/Users/Administrator/Desktop/simulation_test/simulation_test.runs/synth_1/LED_igniting.vds
+# Journal file: C:/Users/Administrator/Desktop/simulation_test/simulation_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LED_igniting.tcl -notrace

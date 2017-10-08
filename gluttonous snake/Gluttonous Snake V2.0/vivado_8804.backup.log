@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Feb 21 10:42:36 2017
+# Process ID: 8804
+# Current directory: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9096 C:\Users\Administrator\Desktop\理论Project\Gluttonous Snake V2.0\Gluttonous Snake.xpr
+# Log file: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ZYZ/Desktop/CCCCC/Gluttonous Snake/Gluttonous Snake' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 824.504 ; gain = 149.742
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Tue Feb 21 12:52:29 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/Gluttonous Snake.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 971.566 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Tue Feb 21 12:54:04 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/Gluttonous Snake.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Tue Feb 21 12:54:58 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/理论Project/Gluttonous Snake V2.0/Gluttonous Snake.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 21 12:55:28 2017...

@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Apr 22 20:35:49 2017
+# Process ID: 9220
+# Current directory: E:/vivado_homework/SCPU1/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6656 E:\vivado_homework\SCPU1\SCPU\SCPU.xpr
+# Log file: E:/vivado_homework/SCPU1/SCPU/vivado.log
+# Journal file: E:/vivado_homework/SCPU1/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/SCPU1/SCPU/SCPU.xpr
+open_run synth_1 -name synth_1
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+launch_simulation
+source SCPU_sim.tcl
+close_sim
+launch_simulation
+source SCPU_sim.tcl
+current_project SCPU
+current_project project_1
+close_sim
+close_project
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+file mkdir E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new
+current_project SCPU
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new/SCPU_sim.v w ]
+add_files -fileset sim_1 E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new/SCPU_sim.v
+current_project project_1
+current_project SCPU
+current_project project_1
+current_project SCPU
+current_project project_1
+launch_simulation
+source SCPU_sim.tcl
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+current_project SCPU
+launch_simulation
+source SCPU_top.tcl
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+close_sim
+close_project
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run all
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+close_sim

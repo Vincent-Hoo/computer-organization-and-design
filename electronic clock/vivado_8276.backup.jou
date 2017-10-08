@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 18 21:18:49 2017
+# Process ID: 8276
+# Current directory: E:/vivado_homework/electronic clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6792 E:\vivado_homework\electronic clock\counter.xpr
+# Log file: E:/vivado_homework/electronic clock/vivado.log
+# Journal file: E:/vivado_homework/electronic clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado_homework/electronic clock/counter.xpr}

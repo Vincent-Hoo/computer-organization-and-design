@@ -1,0 +1,89 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Feb 21 13:01:54 2017
+| Host         : YR151215-IXCK running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc -file Top_drc_routed.rpt -pb Top_drc_routed.pb -rpx Top_drc_routed.rpx
+| Design       : Top
+| Device       : xc7a35ticpg236-1L
+| Speed File   : -1L
+| Design State : Routed
+---------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 7
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
+| PDRC-153    | Warning  | Gated clock check                                           | 4          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 2          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net Button/button_plus is a gated clock net sourced by a combinational pin Button/direct[1]_i_2/O, cell Button/direct[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net Game/mode_reg[0]/G0 is a gated clock net sourced by a combinational pin Game/mode_reg[0]/L3_2/O, cell Game/mode_reg[0]/L3_2 (in Game/mode_reg[0] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net Game/mode_reg[1]_i_1_n_0 is a gated clock net sourced by a combinational pin Game/mode_reg[1]_i_1/O, cell Game/mode_reg[1]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net Snake/plus is a gated clock net sourced by a combinational pin Snake/cubenum[3]_i_2/O, cell Snake/cubenum[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT Button/direct[1]_i_2 is driving clock pin of 2 cells. This could lead to large hold time violations. First few involved cells are:
+    Snake/direct_reg[0] {FDRE}
+    Snake/direct_reg[1] {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT Snake/cubenum[3]_i_2 is driving clock pin of 4 cells. This could lead to large hold time violations. First few involved cells are:
+    Snake/cubenum_reg[0] {FDSE}
+    Snake/cubenum_reg[1] {FDSE}
+    Snake/cubenum_reg[2] {FDSE}
+    Snake/cubenum_reg[3] {FDSE}
+
+Related violations: <none>
+
+

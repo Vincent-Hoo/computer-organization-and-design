@@ -1,0 +1,631 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Apr 22 20:35:49 2017
+# Process ID: 9220
+# Current directory: E:/vivado_homework/SCPU1/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6656 E:\vivado_homework\SCPU1\SCPU\SCPU.xpr
+# Log file: E:/vivado_homework/SCPU1/SCPU/vivado.log
+# Journal file: E:/vivado_homework/SCPU1/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/SCPU1/SCPU/SCPU.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU1/SCPU/SCPU.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 742.727 ; gain = 125.180
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+Finished Parsing XDC File [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/constrs_1/new/SCPU.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 1095.094 ; gain = 295.176
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU/project_1/project_1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 1516.148 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sim_1/new/SCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1516.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5036de1aabf34b718ac0266cebc7d9ce --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_sim_behav xil_defaultlib.SCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.SCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_sim_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Apr 22 21:58:36 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 51.227 ; gain = 0.656
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 22 21:58:36 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 1516.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '25' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_sim_behav -key {Behavioral:sim_1:Functional:SCPU_sim} -tclbatch {SCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1524.285 ; gain = 8.137
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:47 . Memory (MB): peak = 1524.285 ; gain = 8.137
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 1554.945 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sim_1/new/SCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5036de1aabf34b718ac0266cebc7d9ce --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_sim_behav xil_defaultlib.SCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.SCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_sim_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Apr 22 22:02:48 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 51.473 ; gain = 0.617
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 22 22:02:48 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1554.945 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '26' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_sim_behav -key {Behavioral:sim_1:Functional:SCPU_sim} -tclbatch {SCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:31 . Memory (MB): peak = 1554.945 ; gain = 0.000
+current_project SCPU
+current_project project_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:29 . Memory (MB): peak = 1554.945 ; gain = 0.000
+close_project
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Sat Apr 22 22:18:32 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 51.227 ; gain = 0.738
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 22 22:18:32 2017...
+close_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:24 . Memory (MB): peak = 1554.945 ; gain = 0.000
+open_project E:/vivado_homework/SCPU/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/vivado_homework/SCPU/project_1/project_1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.945 ; gain = 0.000
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library work [E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v:1]
+[Sun Apr 23 00:08:50 2017] Launched synth_1...
+Run output will be captured here: E:/vivado_homework/SCPU/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1671.527 ; gain = 111.328
+file mkdir E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new
+current_project SCPU
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new/SCPU_sim.v w ]
+add_files -fileset sim_1 E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sim_1/new/SCPU_sim.v
+current_project project_1
+current_project SCPU
+current_project project_1
+current_project SCPU
+current_project project_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.srcs/sim_1/new/SCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1785.332 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5036de1aabf34b718ac0266cebc7d9ce --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_sim_behav xil_defaultlib.SCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.SCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_sim_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav/xsim.dir/SCPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Apr 23 00:19:42 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 23 00:19:42 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1785.332 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '21' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_sim_behav -key {Behavioral:sim_1:Functional:SCPU_sim} -tclbatch {SCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:33 . Memory (MB): peak = 1785.332 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+current_project SCPU
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SCPU_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SCPU_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_RegDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_RegDst
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_PCSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_PCSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALU_memory_to_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALU_memory_to_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALUSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_ALUSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/addr_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7
+INFO: [VRFC 10-2458] undeclared symbol enable, assumed default net type wire [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artificial_impulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module artificial_impulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Button_Scaning.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Button_Scaning
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_top
+INFO: [VRFC 10-2458] undeclared symbol impulse, assumed default net type wire [E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto d5a4a886d3da4bcdbb8ced797b9b2045 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SCPU_top_behav xil_defaultlib.SCPU_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.Button_Scaning
+Compiling module xil_defaultlib.artificial_impulse
+Compiling module xil_defaultlib.Mux_display
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.Mux_RegDst
+Compiling module xil_defaultlib.Mux_signExtend
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Mux_ALUSrc
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Mux_ALU_memory_to_reg
+Compiling module xil_defaultlib.addr_shift
+Compiling module xil_defaultlib.Mux_PCSrc
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.seg7
+Compiling module xil_defaultlib.SCPU_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_top_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav/xsim.dir/SCPU_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav/xsim.dir/SCPU_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Apr 23 00:27:08 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 51.707 ; gain = 0.883
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 23 00:27:08 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:36 . Memory (MB): peak = 1798.145 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '36' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_top_behav -key {Behavioral:sim_1:Functional:SCPU_top} -tclbatch {SCPU_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source SCPU_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:43 . Memory (MB): peak = 1798.145 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1799.367 ; gain = 0.000
+close_project
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_homework/SCPU1/SCPU/SCPU.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_homework/SCPU1/SCPU/SCPU.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Sun Apr 23 00:30:23 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 23 00:30:23 2017...
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1799.367 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1799.367 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 1799.367 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 23 15:33:48 2017...

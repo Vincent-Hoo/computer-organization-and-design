@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 26 12:53:24 2016
+# Process ID: 1892
+# Log file: G:/Gluttonous Snake/Gluttonous Snake V2.0/vivado.log
+# Journal file: G:/Gluttonous Snake/Gluttonous Snake V2.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Gluttonous Snake/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ZYZ/Desktop/CCCCC/Gluttonous Snake/Gluttonous Snake' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option CompiledLibDirXSim has no valid value
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirIES
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirActivehdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CreateRefXciForCoreContainers
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name IPUserFilesDir
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name IPStaticSourceDir
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableBDX
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DSANumComputeUnits
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTXSimLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTModelSimLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTQuestaLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTIesLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTVcsLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTRivieraLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTActivehdlLaunchSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTXSimExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTModelSimExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTQuestaExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTIesExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTVcsExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTRivieraExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name WTActivehdlExportSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name GenerateIPUpgradeLog
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimRadix
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimTimeUnit
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimArrayDisplayLimit
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name XSimTraceLimit
+WARNING: [Project 1-231] Project 'Gluttonous Snake.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Windows_Application/Vivado/Vivado/2015.2/data/ip'.
+save_project_as V2.0 {G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0} -force
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Dec 26 13:14:18 2016] Launched synth_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/synth_1/runme.log
+[Mon Dec 26 13:14:18 2016] Launched impl_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Mon Dec 26 13:14:46 2016] Launched synth_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Mon Dec 26 13:15:06 2016] Launched synth_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Button_Scan.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Clock_divide.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Display.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/EatingApple.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Game_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Snake_Control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v" into library work [G:/Gluttonous Snake/Gluttonous Snake V2.0/codes/vga_controller.v:1]
+[Mon Dec 26 13:15:47 2016] Launched synth_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/synth_1/runme.log
+launch_runs impl_1
+[Mon Dec 26 13:16:27 2016] Launched impl_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Mon Dec 26 13:17:21 2016] Launched impl_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Dec 26 13:18:55 2016] Launched synth_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/synth_1/runme.log
+[Mon Dec 26 13:18:55 2016] Launched impl_1...
+Run output will be captured here: G:/Gluttonous Snake/Gluttonous Snake V2.0/V2.0/V2.0.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 26 13:21:51 2016...

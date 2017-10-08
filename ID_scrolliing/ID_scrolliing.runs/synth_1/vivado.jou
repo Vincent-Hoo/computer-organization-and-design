@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 18 23:14:47 2016
+# Process ID: 6484
+# Current directory: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1
+# Command line: vivado.exe -log scroll_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source scroll_top.tcl
+# Log file: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1/scroll_top.vds
+# Journal file: E:/学习/大二上学期/数字系统设计/vivado开发/ID_scrolliing/ID_scrolliing.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source scroll_top.tcl -notrace

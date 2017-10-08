@@ -1,0 +1,24 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+E:/vivado_homework/SCPU1/SCPU/SCPU.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/ALU.v,1492755505,verilog,,,,ALU,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Button_Scaning.v,1492757011,verilog,,,,Button_Scaning,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/DataMemory.v,1492870039,verilog,,,,DataMemory,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALUSrc.v,1492755479,verilog,,,,Mux_ALUSrc,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_ALU_memory_to_reg.v,1492755572,verilog,,,,Mux_ALU_memory_to_reg,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_PCSrc.v,1492755659,verilog,,,,Mux_PCSrc,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_RegDst.v,1492755350,verilog,,,,Mux_RegDst,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_display.v,1492773359,verilog,,,,Mux_display,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Mux_signExtend.v,1492755405,verilog,,,,Mux_signExtend,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/PC.v,1492759538,verilog,,,,PC,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/Register.v,1492868871,verilog,,,,Register,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU.v,1492773445,verilog,,,,SCPU,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/SCPU_top.v,1492773514,verilog,,,,SCPU_top,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/addr_shift.v,1492755608,verilog,,,,addr_shift,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/artificial_impulse.v,1492770505,verilog,,,,artificial_impulse,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/clk_div.v,1492765153,verilog,,,,clk_div,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/control_unit.v,1492870018,verilog,,,,control_unit,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/instructionMemory.v,1492778593,verilog,,,,instructionMemory,,,,,,,,
+E:/vivado_homework/SCPU1/SCPU/SCPU.srcs/sources_1/new/seg7.v,1492763762,verilog,,,,seg7,,,,,,,,

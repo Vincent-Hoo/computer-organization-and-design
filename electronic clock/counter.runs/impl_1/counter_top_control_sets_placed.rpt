@@ -1,0 +1,94 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Feb 21 19:39:33 2017
+| Host         : YR151215-IXCK running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file counter_top_control_sets_placed.rpt
+| Design       : counter_top
+| Device       : xc7a35ti
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    29 |
+| Unused register locations in slices containing registers |   111 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |            9 |
+| No           | No                    | Yes                    |              97 |           41 |
+| No           | Yes                   | No                     |              22 |            7 |
+| Yes          | No                    | No                     |              48 |           12 |
+| Yes          | No                    | Yes                    |              24 |            7 |
+| Yes          | Yes                   | No                     |              48 |           17 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------------------------+-------------------------------+------------------+----------------+
+|            Clock Signal           |          Enable Signal          |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-----------------------------------+---------------------------------+-------------------------------+------------------+----------------+
+|  c/alarm_clock_arrive_time_reg/G0 |                                 |                               |                1 |              1 |
+|  ten/cl_reg                       |                                 | clr_IBUF                      |                1 |              1 |
+|  clk_IBUF_BUFG                    |                                 | s/an_reg[2]_0                 |                1 |              2 |
+|  one_second_clk_BUFG              |                                 |                               |                1 |              3 |
+|  one_second_clk_BUFG              | c/ab/E[0]                       | c/cnt3[3]_i_1__0_n_0          |                2 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt1_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt2_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt3_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                2 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt4_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt5_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/cnt1_reg[3][0]             | c/cnt1[3]_i_1__0_n_0          |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/alarm_clock_cnt6_reg[3][0] | c/alarm_clock_cnt3[3]_i_1_n_0 |                2 |              4 |
+|  one_second_clk_BUFG              | c/ab/cnt2_reg[0][0]             | c/cnt2[3]_i_1__0_n_0          |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/cnt4_reg[0][0]             | c/cnt4[3]_i_1__0_n_0          |                2 |              4 |
+|  one_second_clk_BUFG              | c/ab/cnt5_reg[0][0]             | c/cnt5[3]_i_1__0_n_0          |                1 |              4 |
+|  one_second_clk_BUFG              | c/ab/cnt6_reg[0][0]             | c/cnt1[3]_i_1__0_n_0          |                2 |              4 |
+|  ten/cl_reg                       |                                 |                               |                1 |              4 |
+|  sixty/CLK                        | cnt/cnt2[3]_i_1_n_0             | clr_IBUF                      |                1 |              4 |
+|  sixty/CLK                        | cnt/cnt1[3]_i_1_n_0             | clr_IBUF                      |                2 |              4 |
+|  sixty/CLK                        | cnt/cnt3[3]_i_1_n_0             | clr_IBUF                      |                1 |              4 |
+|  sixty/CLK                        | cnt/cnt4                        | clr_IBUF                      |                1 |              4 |
+|  sixty/CLK                        | cnt/cnt5                        | clr_IBUF                      |                1 |              4 |
+|  sixty/CLK                        | cnt/cnt6                        | clr_IBUF                      |                1 |              4 |
+|  clk_IBUF_BUFG                    |                                 |                               |                6 |             10 |
+|  clkdiv_reg__0[1]                 | c/ab/delay_clk[0]_i_1__0_n_0    |                               |                4 |             16 |
+|  clkdiv_reg__0[1]                 | c/cb/delay_clk[0]_i_1__1_n_0    |                               |                4 |             16 |
+|  clkdiv_reg__0[1]                 | cnt/pb/delay_clk[0]_i_1_n_0     |                               |                4 |             16 |
+|  clk_IBUF_BUFG                    |                                 | s/s                           |                6 |             20 |
+|  clk_IBUF_BUFG                    |                                 | clr_IBUF                      |               40 |             96 |
++-----------------------------------+---------------------------------+-------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 2      |                     1 |
+| 3      |                     1 |
+| 4      |                    19 |
+| 10     |                     1 |
+| 16+    |                     5 |
++--------+-----------------------+
+
+

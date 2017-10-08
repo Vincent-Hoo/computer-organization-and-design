@@ -1,0 +1,604 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 08:40:20 2016
+# Process ID: 7748
+# Current directory: C:/Users/Administrator/Desktop/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9152 C:\Users\Administrator\Desktop\counter\counter.xpr
+# Log file: C:/Users/Administrator/Desktop/counter/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/counter/counter.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/Administrator/Desktop/counter/counter.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 740.523 ; gain = 106.141
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+ERROR: [Common 17-70] Application Exception: Top module not set for fileset 'sources_1'. Please ensure that a valid value is provided for 'top'. The value for 'top' can be set/changed using the 'Top Module Name' field under 'Project Settings', or using the 'set_property top' Tcl command (e.g. set_property top <name> [current_fileset]).
+close [ open C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v w ]
+add_files C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v" into library work [C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v:1]
+[Fri Dec 23 08:43:54 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/counter/counter.runs/synth_1/runme.log
+update_compile_order -fileset sim_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticpg236-1L
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L'. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'L'. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/counter/counter.srcs/constrs_1/new/counter.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1053.855 ; gain = 267.785
+place_ports L0 L1
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.421 . Memory (MB): peak = 1196.012 ; gain = 0.000
+
+Phase 1.2 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.423 . Memory (MB): peak = 1196.012 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.423 . Memory (MB): peak = 1196.012 ; gain = 0.000
+
+Phase 2 IO and Clk Clean Up
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1196.012 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1196.012 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1461.434 ; gain = 0.000
+[Fri Dec 23 08:46:58 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/counter/counter.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1461.434 ; gain = 0.000
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.3
+  **** Build date : Oct 10 2016-19:47:06
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1461.434 ; gain = 0.000
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183795004A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183795004A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183795004A
+set_property PROGRAM.FILE {C:/Users/Administrator/Desktop/counter/counter.runs/impl_1/counter_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Administrator/Desktop/counter/counter.runs/impl_1/counter_top.bin} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183795004A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183795004A
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'counter_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj counter_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_second
+INFO: [VRFC 10-311] analyzing module ten_Hz
+INFO: [VRFC 10-311] analyzing module sixty_Hz
+INFO: [VRFC 10-311] analyzing module button
+INFO: [VRFC 10-311] analyzing module electronic_clock
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module seg7
+INFO: [VRFC 10-2458] undeclared symbol enable, assumed default net type wire [C:/Users/Administrator/Desktop/counter/counter.srcs/sources_1/new/counter.v:743]
+INFO: [VRFC 10-311] analyzing module counter_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5dfd8bc5322543aba466b9ab5b4b38e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_top_behav xil_defaultlib.counter_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.one_second
+Compiling module xil_defaultlib.ten_Hz
+Compiling module xil_defaultlib.sixty_Hz
+Compiling module xil_defaultlib.button
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.electronic_clock
+Compiling module xil_defaultlib.seg7
+Compiling module xil_defaultlib.counter_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_top_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/counter_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/counter_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Dec 23 09:10:59 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 23 09:10:59 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.125 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter_top_behav -key {Behavioral:sim_1:Functional:counter_top} -tclbatch {counter_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source counter_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1610.164 ; gain = 0.039
+set_property top test_dividor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_dividor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_dividor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dividor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5dfd8bc5322543aba466b9ab5b4b38e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_dividor_behav xil_defaultlib.test_dividor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.test_dividor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_dividor_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/test_dividor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/test_dividor_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Dec 23 09:11:37 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 23 09:11:37 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1630.461 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_dividor_behav -key {Behavioral:sim_1:Functional:test_dividor} -tclbatch {test_dividor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source test_dividor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Simtcl 6-168] No object found for the given pattern.
+WARNING: [Add_Wave-1] No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console.
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_dividor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1630.461 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1632.672 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_dividor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_dividor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dividor
+ERROR: [VRFC 10-91] alk is not declared [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:26]
+ERROR: [VRFC 10-1040] module test_dividor ignored due to previous errors [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_dividor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_dividor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dividor
+ERROR: [VRFC 10-91] alk is not declared [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:26]
+ERROR: [VRFC 10-1040] module test_dividor ignored due to previous errors [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_dividor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_dividor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dividor
+ERROR: [VRFC 10-91] alk is not declared [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:26]
+ERROR: [VRFC 10-1040] module test_dividor ignored due to previous errors [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_dividor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_dividor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dividor
+ERROR: [VRFC 10-91] alk is not declared [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:26]
+ERROR: [VRFC 10-1040] module test_dividor ignored due to previous errors [C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+remove_files  -fileset sim_1 C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/test_dividor.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v w ]
+add_files -fileset sim_1 C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v
+set_property top clk_10Hz [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/counter_top_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_10Hz' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_10Hz_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_10Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5dfd8bc5322543aba466b9ab5b4b38e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_10Hz_behav xil_defaultlib.clk_10Hz xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_10Hz
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_10Hz_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Dec 23 09:20:51 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 23 09:20:51 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1632.672 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_10Hz_behav -key {Behavioral:sim_1:Functional:clk_10Hz} -tclbatch {clk_10Hz.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_10Hz.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Simtcl 6-168] No object found for the given pattern.
+WARNING: [Add_Wave-1] No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console.
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_10Hz_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1632.672 ; gain = 0.000
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1632.672 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1632.672 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_10Hz' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_10Hz_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_10Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5dfd8bc5322543aba466b9ab5b4b38e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_10Hz_behav xil_defaultlib.clk_10Hz xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_10Hz
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_10Hz_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Dec 23 09:22:01 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 23 09:22:01 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1632.672 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_10Hz_behav -key {Behavioral:sim_1:Functional:clk_10Hz} -tclbatch {clk_10Hz.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_10Hz.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_10Hz_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1632.672 ; gain = 0.000
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Administrator/Desktop/counter/.Xil/Vivado-7748-YR151215-IXCK/dcp/counter_top.xdc]
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/counter/.Xil/Vivado-7748-YR151215-IXCK/dcp/counter_top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.782 . Memory (MB): peak = 1680.914 ; gain = 0.082
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.782 . Memory (MB): peak = 1680.914 ; gain = 0.082
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1749.449 ; gain = 103.219
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 1835.328 ; gain = 0.000
+[Fri Dec 23 10:50:17 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/counter/counter.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Administrator/Desktop/counter/.Xil/Vivado-7748-YR151215-IXCK/dcp/counter_top.xdc]
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/counter/.Xil/Vivado-7748-YR151215-IXCK/dcp/counter_top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1835.328 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1835.328 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1835.328 ; gain = 0.000
+current_design synth_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1835.328 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_10Hz' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_10Hz_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_10Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 5dfd8bc5322543aba466b9ab5b4b38e0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_10Hz_behav xil_defaultlib.clk_10Hz xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_10Hz
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_10Hz_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/xsim.dir/clk_10Hz_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 51.168 ; gain = 0.352
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 23 11:36:12 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 1835.328 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_10Hz_behav -key {Behavioral:sim_1:Functional:clk_10Hz} -tclbatch {clk_10Hz.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_10Hz.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_10Hz_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1835.328 ; gain = 0.000
+write_schematic -format pdf -orientation portrait C:/Users/Administrator/Desktop/schematic.pdf
+C:/Users/Administrator/Desktop/schematic.pdf
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:32 . Memory (MB): peak = 1835.328 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 23 21:03:50 2016...

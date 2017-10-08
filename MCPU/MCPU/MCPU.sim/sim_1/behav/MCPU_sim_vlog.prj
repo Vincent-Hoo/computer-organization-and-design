@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/control_unit.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/jumpInsExtend.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/instructionMemory.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/addr_shift.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/Register.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/Mux_signExtend.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/Mux_WRdataSrc.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/Mux_RegDst.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/Mux_PCSrc.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/ALU_mem_to_reg.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/Mux_ALUSrc.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/Mux_ALUSrcA.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/IR.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/DataMemory.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/DBDR.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/BDR.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/ALUoutDR.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/ADR.v"
+verilog xil_defaultlib  "../../../../../SCPU/project_1/project_1.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/MCPU.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sim_1/new/MCPU_sim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

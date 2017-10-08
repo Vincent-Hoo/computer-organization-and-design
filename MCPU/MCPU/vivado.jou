@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed May 31 08:11:38 2017
+# Process ID: 4048
+# Current directory: E:/vivado_homework/MCPU/MCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent884 E:\vivado_homework\MCPU\MCPU\MCPU.xpr
+# Log file: E:/vivado_homework/MCPU/MCPU/vivado.log
+# Journal file: E:/vivado_homework/MCPU/MCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_homework/MCPU/MCPU/MCPU.xpr
+launch_simulation
+source MCPU_sim.tcl
+restart
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 30 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+close_sim

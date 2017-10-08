@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 18 16:18:38 2017
+# Process ID: 8424
+# Current directory: E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11028 E:\vivado_homework\gluttonous snake\Gluttonous Snake V2.0\Gluttonous Snake.xpr
+# Log file: E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0/vivado.log
+# Journal file: E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado_homework/gluttonous snake/Gluttonous Snake V2.0/Gluttonous Snake.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/theory Project/Gluttonous Snake V2.0' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 709.270 ; gain = 82.875
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 18 16:21:35 2017...

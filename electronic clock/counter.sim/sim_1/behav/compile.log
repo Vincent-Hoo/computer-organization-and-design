@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.srcs/sim_1/new/clk_10Hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_10Hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/counter/counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

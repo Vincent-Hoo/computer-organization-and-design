@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 15:36:15 2016
+# Process ID: 268
+# Current directory: C:/Users/Administrator/Desktop/simulation_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6124 C:\Users\Administrator\Desktop\simulation_test\simulation_test.xpr
+# Log file: C:/Users/Administrator/Desktop/simulation_test/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/simulation_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/simulation_test/simulation_test.xpr
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/ignite.v w ]
+add_files -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/ignite.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ignite [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source ignite.tcl
+close_sim
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+write_schematic -format pdf -orientation portrait C:/Users/Administrator/Desktop/schematic.pdf
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+refresh_design
+launch_simulation
+remove_files  -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/ignite.v
+remove_files  -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test_dividor.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test_194.v w ]
+add_files -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test_194.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_194 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source test_194.tcl
+close_sim
+launch_simulation
+source test_194.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+remove_files  -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test_194.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test194.v w ]
+add_files -fileset sim_1 C:/Users/Administrator/Desktop/simulation_test/simulation_test.srcs/sim_1/new/test194.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test194 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source test194.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation

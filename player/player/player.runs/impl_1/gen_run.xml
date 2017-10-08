@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-3" LaunchTime="1487682229">
+  <File Type="PLACE-DCP" Name="player_placed.dcp"/>
+  <File Type="PA-DCP" Name="player.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="player_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="player_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="player_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="player.tcl"/>
+  <File Type="OPT-HWDEF" Name="player.hwdef"/>
+  <File Type="RDI-RDI" Name="player.vdi"/>
+  <File Type="OPT-DCP" Name="player_opt.dcp"/>
+  <File Type="OPT-DRC" Name="player_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="player_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="player_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="player_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="player_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="player_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="player_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="player_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="player_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="player_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="player_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="player_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="player_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="player_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="player_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="player_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="player_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="player_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="player_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="player_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="player_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="player_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="player_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="player.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="player_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="player.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="player_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="player.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="player_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="player.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="player_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="player_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="player_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="player_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="player_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="player_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="player_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="player_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="player_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="player_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="player_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="player_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="player_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="player_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="player_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="player.bit"/>
+  <File Type="BITSTR-RBT" Name="player.rbt"/>
+  <File Type="BITSTR-NKY" Name="player.nky"/>
+  <File Type="BITSTR-BMM" Name="player_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="player.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="player.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/player.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="player"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/player">
+    <File Path="$PSRCDIR/player/new/player.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/player/new/player.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

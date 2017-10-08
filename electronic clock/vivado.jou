@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 21 13:32:04 2017
+# Process ID: 14940
+# Current directory: E:/vivado_homework/electronic clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14380 E:\vivado_homework\electronic clock\counter.xpr
+# Log file: E:/vivado_homework/electronic clock/vivado.log
+# Journal file: E:/vivado_homework/electronic clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado_homework/electronic clock/counter.xpr}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183698698A]
+open_hw_target
+set_property PROGRAM.FILE {E:/vivado_homework/electronic clock/counter.runs/impl_1/counter_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/vivado_homework/electronic clock/counter.runs/impl_1/counter_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
